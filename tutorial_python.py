@@ -36,3 +36,25 @@ contador = 0
 while contador < 5:
     print('Contador:', contador)
     contador += 1
+
+## 6- Funções
+def saudacao(nome):
+    return f"Olá, {nome}!"
+
+print(saudacao('Alba'))
+
+## 7- listas e dicionários
+## Listas
+numeros = [1, 2, 3, 4, 5]
+numeros.append(6)  # Adiciona um item
+print(numeros[2]) # Acessa o terceiro item (indice 2)
+
+## Dicionários
+pessoa = {"nome": "Alba", "idade": 31,}
+pessoa = {"nome": "João", "idade": 25,}
+
+print(pessoa["nome"])  # Acessa o valor associado à chave "nome"
+print(pessoa["idade"])  # Acessa o valor associado à chave "idade"
+
+print(pessoa['nome'], "idade", pessoa['idade'])
+
